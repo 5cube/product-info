@@ -3,8 +3,8 @@
 #protoc \
 #  --plugin=protoc-gen-ts=./node_modules/.bin/protoc-gen-ts \
 #  -I ./proto \
-#  --js_out=import_style=commonjs,binary:./proto/gen \
-#  --ts_out=service=true:./proto/gen \
+#  --js_out=import_style=commonjs,binary:./proto/generated \
+#  --ts_out=service=true:./proto/generated \
 #  ./proto/product_info.proto
 
 # Path to this plugin 
